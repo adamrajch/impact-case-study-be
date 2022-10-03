@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "techs",
+  "info": {
+    "singularName": "tech",
+    "pluralName": "techs",
+    "displayName": "Tech",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sectors": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.tech-stack"
+    }
+  }
+}
